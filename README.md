@@ -1,3 +1,12 @@
+docker run -d \
+  --name chrome-remote-desktop \
+  --privileged \
+  -e HOSTNAME=thuonghai2711 \
+  -e CODE="4/0AdLIrYfc4h8MlNgtKRNplStWAobqHaC3LUoOjaLvYavesNj2GzEb9Wwt4M1zIBJmcKeWjg" \
+  -e PIN=123456 \
+  --shm-size=2g \
+  cardinalby/chrome-remote-desktop
+
 ## Ubuntu + Chrome Remote Desktop + Firefox docker image
 
 This image is based on [Ubuntu](https://ubuntu.com/) and contains [XFCE Desktop Environment](https://www.xfce.org/), [Chrome Remote Desktop](https://remotedesktop.google.com/) and  Firefox browser.
