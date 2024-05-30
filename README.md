@@ -4,7 +4,7 @@ docker run -d \
   -e HOSTNAME=thuonghai2711 \
   -e CODE="4/0AdLIrYfc4h8MlNgtKRNplStWAobqHaC3LUoOjaLvYavesNj2GzEb9Wwt4M1zIBJmcKeWjg" \
   -e PIN=123456 \
-  --shm-size=2g \
+  --shm-size=1g \
   cardinalby/chrome-remote-desktop
 
 ## Ubuntu + Chrome Remote Desktop + Firefox docker image
